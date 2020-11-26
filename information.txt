@@ -14,4 +14,4 @@ ca = number of major vessels colored by flourosopy
 thal = 1 => fixed defect; 2 => normal; 3 => reversable defect (Thallium is a marker and helps to indentify the blood flow in the heart)
 target = heart disease (0 = no disease; 1 = disease)
 
-//
+// General information 
