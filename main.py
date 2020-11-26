@@ -6,7 +6,7 @@ import seaborn as sns
 data = pd.read_csv("heart.csv")
 
 #print(data.head(5))
-#print(data.info())
+print(data.info())
 #print(data.describe())
 
 # making dataframe consiting of categorical variables 
