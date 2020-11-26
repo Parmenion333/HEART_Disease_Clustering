@@ -17,7 +17,7 @@ df_numeric = data[["age","trestbps","chol","thalach","oldpeak","ca"]]
 
 #df_categorical.head(5)
 
-# catgorical variables visualisation with histogramms - witouht any for loops due to individual designtion 
+# catgorical variables visualisation with histogramms - witouht any for loops due to individual designation
 
 """plt.hist(df_categorical["sex"], color = "blue")
 plt.xlabel("Women - Men")
