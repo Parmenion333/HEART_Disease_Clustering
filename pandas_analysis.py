@@ -24,4 +24,4 @@ print(data.pivot_table(values=["fbs","exang","cp","restecg","slope","thal","sex"
 print(sex_series.corr(target_series, method = "pearson"), "correlation between sex and target")
 
 # correlation matrix of data 
-print(data.corr(method = "pearson"))
+# print(data.corr(method = "pearson"))

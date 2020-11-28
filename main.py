@@ -17,3 +17,4 @@ df_numeric = data[["age","trestbps","chol","thalach","oldpeak","ca"]]
 
 
 
+

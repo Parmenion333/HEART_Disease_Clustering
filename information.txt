@@ -2,13 +2,13 @@ Variable Overview
 age = age of the person
 sex = gender of the person (female/ male)
 cp = chest pain (sclaed from 0 to 3)
-trestbps = resting blood pressure (in mm Hg on admission to the hospital)
+trestbps = resting blood pressure (in mm Hg on admission to the hospital 120/80 max/min)
 chol = serum cholestoral in mg/dl
-fbs = fasting blood sugar & gt; 120 mg/dl
+fbs = fasting blood sugar & gt; 120 mg/dl (blutzucker nüchtern)
 restecg = resting electrocardiographic results
 thalach = maximum heart rate achieved
 exang = exercise induced angina (Angina is heart condition, usually due to not enough blood flow to the heart)
-oldpeak = ST depression induced by exercise relative to rest
+oldpeak = ST depression induced by exercise relative to rest (ST depression = niedriger wert ist wenig blut zum )
 slope = the slope of the peak exercise ST segment
 ca = number of major vessels colored by flourosopy
 thal = 1 => fixed defect; 2 => normal; 3 => reversable defect (Thallium is a marker and helps to indentify the blood flow in the heart)

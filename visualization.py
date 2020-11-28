@@ -69,10 +69,10 @@ plt.show()"""
 
 # jointplot comparing all categorical variables depending on gender
 
-"""for i in df_categorical.columns:
+""" for i in df_categorical.columns:
     sns.jointplot(x="sex", y= i, data=data)
     plt.title(i)
-    plt.show()"""
+    plt.show() """
 
 
 # jointplot comapring all numerical variables depending on gender
