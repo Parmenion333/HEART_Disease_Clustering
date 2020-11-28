@@ -1,7 +1,7 @@
-import pandas as pd
+import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+import seaborn as sns 
 
 data = pd.read_csv("heart.csv")
 
@@ -17,9 +17,9 @@ df_numeric = data[["age","trestbps","chol","thalach","oldpeak","ca"]]
 
 #df_categorical.head(5)
 
-# catgorical variables visualisation with histogramms 
+# catgorical variables visualisation with histogramms - witouht any for loops due to individual designation
 
-""" plt.hist(df_categorical["sex"], color = "blue")
+"""plt.hist(df_categorical["sex"], color = "blue")
 plt.xlabel("Women - Men")
 plt.ylabel("Number")
 plt.title("Gender distribution")
@@ -65,14 +65,14 @@ plt.hist(df_categorical["target"], color = "red")
 plt.xlabel("no disease - disease")
 plt.ylabel("Number")
 plt.title("Disease")
-plt.show() """
+plt.show()"""
 
 # jointplot comparing all categorical variables depending on gender
 
-""" for i in df_categorical.columns:
+"""for i in df_categorical.columns:
     sns.jointplot(x="sex", y= i, data=data)
     plt.title(i)
-    #plt.show() """
+    plt.show()"""
 
 
 # jointplot comapring all numerical variables depending on gender
