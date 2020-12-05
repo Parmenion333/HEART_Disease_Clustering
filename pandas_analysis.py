@@ -25,3 +25,6 @@ print(sex_series.corr(target_series, method = "pearson"), "correlation between s
 
 # correlation matrix of data 
 # print(data.corr(method = "pearson"))
+
+df_sex_age_target = data[["sex","age","target"]]
+print(df_sex_age_target.head(5))
