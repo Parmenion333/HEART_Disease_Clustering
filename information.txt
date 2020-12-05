@@ -15,3 +15,11 @@ thal = 1 => fixed defect; 2 => normal; 3 => reversable defect (Thallium is a mar
 target = heart disease (0 = no disease; 1 = disease)
 
 // General information
+Differences between gender
+men
+	- 93 sick 
+	- averg. age = 50.90
+
+women
+	- 72 sick
+	- averg. age = 54.55
