@@ -38,5 +38,6 @@ print(data.pivot_table(values=["fbs","exang","cp","restecg","slope","thal","targ
 
 # correlation matrix of data 
 print(data.corr(method = "pearson"))
+#iininnn
 
 
