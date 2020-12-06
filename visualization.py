@@ -5,9 +5,9 @@ import seaborn as sns
 
 data = pd.read_csv("heart.csv")
 
-print(data.head(5))
-print(data.info())
-print(data.describe())
+#print(data.head(5))
+#print(data.info())
+#print(data.describe())
 
 # making dataframe consiting of categorical variables 
 df_categorical = data[["sex","fbs","exang","cp","restecg","slope","thal","target"]]
@@ -59,13 +59,13 @@ plt.hist(df_categorical["restecg"], color = "black")
 plt.xlabel("...")
 plt.ylabel("Number")
 plt.title("Rest ECG")
-plt.show()
+plt.show()"""
 
 plt.hist(df_categorical["target"], color = "red")
 plt.xlabel("no disease - disease")
 plt.ylabel("Number")
 plt.title("Disease")
-plt.show()"""
+plt.show()
 
 # jointplot comparing all categorical variables depending on gender
 
