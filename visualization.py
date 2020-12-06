@@ -61,11 +61,11 @@ plt.ylabel("Number")
 plt.title("Rest ECG")
 plt.show()"""
 
-plt.hist(df_categorical["target"], color = "red")
+"""plt.hist(df_categorical["target"], color = "red")
 plt.xlabel("no disease - disease")
 plt.ylabel("Number")
 plt.title("Disease")
-plt.show()
+plt.show()"""
 
 # jointplot comparing all categorical variables depending on gender
 
