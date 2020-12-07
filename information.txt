@@ -1,6 +1,6 @@
 Variable Overview
 age = age of the person
-sex = gender of the person (female/ male)
+sex = gender of the person (female = 0/ male = 1)
 cp = chest pain (sclaed from 0 to 3)
 trestbps = resting blood pressure (in mm Hg on admission to the hospital 120/80 max/min)
 chol = serum cholestoral in mg/dl
