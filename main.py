@@ -10,10 +10,10 @@ data = pd.read_csv("heart.csv")
 #print(data.describe())
 
 # making dataframe consiting of categorical variables 
-df_categorical = data[["sex","fbs","exang","cp","restecg","slope","thal","target"]]
+df_categorical = data[["sex","fbs","exang","restecg","slope","thal","target"]]
 
 # making dataframe consisting of numerical varibles
-df_numeric = data[["age","trestbps","chol","thalach","oldpeak","ca"]]
+df_numeric = data[["age","trestbps","chol","thalach","oldpeak","ca","cp"]]
 
 
 
